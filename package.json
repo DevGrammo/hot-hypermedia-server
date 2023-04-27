@@ -1,0 +1,33 @@
+{
+  "name": "hypermedia-hot-server",
+  "version": "0.0.1",
+  "description": "live-server with script injection, hypermedia friendly. Adapted from https://github.com/1wheel/hot-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hypermedia-hot-server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevGrammo/hot-hypermedia-server.git"
+  },
+  "author": {
+    "name": "devgrammo",
+    "url": "https://github.com/DevGrammo"
+  },
+  "license": "MIT",
+
+  "bin": {
+    "hypermedia-hot-server": "./index.js"
+  },
+  "homepage": "https://github.com/DevGrammo/hot-hypermedia-server#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "minimist": "^1.2.6",
+    "serve-index": "^1.9.1",
+    "serve-static": "^1.15.0",
+    "ws": "^8.8.1"
+  }
+}
